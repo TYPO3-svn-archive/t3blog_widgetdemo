@@ -3,7 +3,7 @@
 ########################################################################
 # Extension Manager/Repository config file for ext "t3blog_widgetdemo".
 #
-# Auto generated 27-05-2010 12:18
+# Auto generated 27-05-2010 15:06
 #
 # Manual updates:
 # Only the data in the array - everything else is removed by next
@@ -39,7 +39,9 @@ $EM_CONF[$_EXTKEY] = array(
 		'suggests' => array(
 		),
 	),
-	'_md5_values_when_last_written' => 'a:7:{s:9:"ChangeLog";s:4:"3b50";s:10:"README.txt";s:4:"ee2d";s:12:"ext_icon.gif";s:4:"1bdc";s:14:"ext_tables.php";s:4:"c302";s:19:"doc/wizard_form.dat";s:4:"0e8a";s:20:"doc/wizard_form.html";s:4:"0977";s:36:"static/t3blog__widget_demo/setup.txt";s:4:"01ab";}',
+	'_md5_values_when_last_written' => 'a:9:{s:9:"ChangeLog";s:4:"3b50";s:10:"README.txt";s:4:"3643";s:12:"ext_icon.gif";s:4:"1bdc";s:17:"ext_localconf.php";s:4:"5785";s:14:"ext_tables.php";s:4:"612a";s:16:"static/setup.txt";s:4:"1084";s:48:"widgets/class.tx_t3blogwidgetdemo_getwidgets.php";s:4:"d5d4";s:49:"widgets/trend/class.tx_t3blogwidgetdemo_trend.php";s:4:"068d";s:27:"widgets/trend/locallang.xml";s:4:"8b3b";}',
+	'suggests' => array(
+	),
 );
 
 ?>
