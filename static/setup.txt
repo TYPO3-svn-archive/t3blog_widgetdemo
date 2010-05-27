@@ -1,0 +1,13 @@
+plugin.tx_t3blog_pi2 {
+	tx_t3blogwidgetdemo_trend {
+		includeLibs = EXT:t3blog_widgetdemo/widgets/trend/class.tx_t3blogwidgetdemo_trend.php
+		# Terms to query, comma-separated
+		terms = typo3
+		# Width of the widget
+		width = 330
+		# Height of the widget
+		height = 250
+	}
+}
+
+plugin.tx_t3blog_pi1.tx_t3blogwidgetdemo_trend < plugin.tx_t3blog_pi2.tx_t3blogwidgetdemo_trend
